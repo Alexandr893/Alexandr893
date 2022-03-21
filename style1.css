@@ -1,0 +1,395 @@
+:root{
+
+    --blacck:#070707;
+   --grey:#828282;
+    }
+
+body{
+
+    color:grey;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    margin: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+
+P{
+
+    margin: 0 0 12rem;    
+    }
+
+    *, 
+*:before,
+*:after{
+box-sizing:border-box;
+
+}
+
+.container{
+
+    width:100%;
+    max-width: 960px;
+    padding-left:12px;
+    padding-right:12px;
+    margin:0 auto;
+    height: 100%;
+}
+
+.header{
+
+padding:32px 0;
+position: relative;
+
+}
+
+.header_inner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px   #828282   solid ;
+    padding-bottom: 40px;
+    
+}
+
+.nav_link{
+
+   
+    padding:0 0 4px;
+    position:relative;
+font-size:18px;
+color:var(--grey);
+font-weight:bold;
+text-decoration:none;
+transition: 0.7s linear; /* Время изменения */
+
+}
+
+.nav_link:hover{
+
+   color:var(--blacck);
+}
+
+.home_inner{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: flex-end;
+    position:relative;
+}
+
+.name{
+
+    font-family: 'Gilroy';
+font-size: 46px;
+color:var(--blacck);
+
+}
+.prof{
+
+    font-family: 'Gilroy';
+    font-size: 18px;
+    color:var(--blacck);
+    padding-bottom: 7px;
+    font-weight: 300;
+    
+    
+}
+
+/* ЗАПОМНИТЬ */
+.contry{
+    
+    writing-mode: tb-rl; 
+    transform:rotate(180deg); 
+    font-size:20px; 
+    
+font-size: 16px;
+}
+
+.contry::after {
+    content: " | ENG";
+    color: var(--blacck);
+   
+   }
+
+.logo{
+    margin-top:50px;
+   margin-bottom: 104px;
+    
+
+
+width: 100%;
+height: auto;
+}
+
+
+.About{
+ 
+ background-color: #F6F6F6;
+ height: auto;
+ padding-top:120px;
+ padding-bottom: 107px;
+ margin-bottom: 100px;
+ max-width: 100%;
+
+
+}
+.About_inner{
+    
+    text-align: center;
+
+    
+  
+}
+
+.zagolovok{
+   
+    font-family: 'Gilroy';
+    font-size: 34px;  
+   color:var(--blacck);
+   font-weight: Bold;
+   margin-bottom: 25px;
+}
+
+.content{
+
+    width:100%;
+    max-width: 486px;
+    height: 218px;
+    margin:0 auto;
+    justify-content: space-between;
+    
+}
+
+.first{
+    color:#070707;
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-family: 'Gilroy-Medium
+
+}
+
+.two{
+    color:#070707;
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-family: 'Gilroy-Medium
+}
+.thre{
+color:#070707;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium
+}
+
+
+.Skil{
+
+    margin-bottom: 100px;
+}
+.Zagolovok{
+text-align: center;
+font-family: 'Gilroy';
+font-size: 34px;
+color:var(--blacck);
+
+}
+
+.subtitle{
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    color:var(--blacck);
+    padding-top: 60px;
+    padding-bottom: 83px;
+}
+.skil_inner{
+    display: flex;
+   margin: 0 auto;
+   padding-left: 100px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+
+}
+.prog{
+
+position:absolute;
+   
+}
+
+
+.name_skil{
+
+margin-top: 24px;
+margin-bottom: 40px;
+
+text-align: center;
+padding-right: 30px;
+font-size: 14px;
+color: var(--grey);
+font-family: 'Gilroy';
+padding-right: 65px;
+}
+
+
+.raiting{
+
+    transform: translateX(-25%) ;
+    
+}
+
+
+.star{
+
+    padding-left: 9px;
+    
+}
+.starno{
+    opacity: 0.3;
+}
+
+.containerportf{
+
+  width: 100%;
+  height: 100%;
+  
+    background-color: #F6F6F6;
+}
+
+.zagolovokportf{
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 34px;
+    color:var(--blacck);
+    padding-top: 113px;
+    padding-bottom: 47px;
+}
+
+.pc_content{
+
+    text-align: center;
+    padding-top: 45px;
+    margin-bottom: 100px;
+    padding-bottom: 96px;
+}
+.cont1{
+
+    font-family: 'Gilroy';
+    font-size: 18px;
+    
+    color:var(--blacck);
+}
+
+
+
+.contact{
+
+   text-align: center;
+   font-family: 'Gilroy';
+font-size: 34px;
+color:var(--blacck);
+padding-bottom: 20px;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    color:var(--blacck);
+    padding-bottom: 30px;
+} 
+
+.btn{
+align-items: center;
+    border-radius: 25px;
+    border:1px solid black;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    background:black;
+color:#F6F6F6;
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+display:inline-block;
+padding:13px 28px 8px 28px;
+margin-bottom:80px;
+
+}
+
+.footer_inner{
+
+display: flex;
+
+justify-content: center;
+}
+
+.sociallink{
+    margin-left: 60px;
+    margin-bottom: 46px;
+
+}
+.link{
+    padding-right: 67px;
+}
+
+.end{
+text-align: center;
+    font-family: 'Gilroy';
+font-size: 14px;
+margin-bottom: 123px;
+line-height: 17px;
+}
+
+@media(max-width:767px){
+  
+ .container{
+    width:100%;
+    max-width: 316px;
+    
+    margin:0 auto;
+    height: 100%;    
+ }
+ 
+.header{
+    display:none ;
+}
+.home_inner{
+
+
+margin-top: 65px;
+margin-left: 25px;
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+.name{
+    font-size: 47px;
+}
+.prof{
+
+    padding-top: 23px;
+    font-size: 18px;
+}
+
+.contry{
+    display: none;
+}
+
+.logo{
+    
+width: 100%;
+height: 100%;
+background: url(valentin-salja-1058467-unsplash.jpg);
+  
+}
+
+.picture{
+width: 100%;
+height: auto;
+
+}
+}
